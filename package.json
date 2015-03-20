@@ -1,0 +1,25 @@
+{
+  "name": "trivial-ractive-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emirotin/trivial-ractive-demo.git"
+  },
+  "author": "Eugene Mirotin <emirotin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emirotin/trivial-ractive-demo/issues"
+  },
+  "homepage": "https://github.com/emirotin/trivial-ractive-demo",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "compression": "^1.4.3",
+    "express": "^4.12.3",
+    "mongoose": "^3.8.25"
+  }
+}
