@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TODO</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="ui-root">
+        Loading...
+      </div>
+    </div>
+
+    <script type="text/html" id="tpl-main">
+      {{#each todos}}
+      <p>
+        {{this.description}}
+      </p>
+      {{/each}}
+    </script>
+
+    <script src="http://cdn.ractivejs.org/latest/ractive.js"></script>
+    <script src="https://rawgit.com/pyrsmk/qwest/master/qwest.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
